@@ -427,3 +427,12 @@ local Player = QBCore.Functions.GetPlayer(_src)
 local gangLabel = Player.PlayerData.gang.label
 print(gangLabel)
 ```
+
+### Gang Grade
+*Returns the player's gang grade*
+```lua
+local _src = source
+local Player = QBCore.Functions.GetPlayer(_src)
+local gangGrade = Player.PlayerData.gang.grade.name
+print(gangGrade)
+```
