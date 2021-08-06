@@ -436,3 +436,21 @@ local Player = QBCore.Functions.GetPlayer(_src)
 local gangGrade = Player.PlayerData.gang.grade.name
 print(gangGrade)
 ```
+
+### Gang Grade Level
+*Returns the player's gang grade level*
+```lua
+local _src = source
+local Player = QBCore.Functions.GetPlayer(_src)
+local gangLevel = Player.PlayerData.gang.grade.level
+print(gangLevel)
+```
+
+### Gang isBoss
+*Returns true if the player is the boss*
+```lua
+local _src = source
+local Player = QBCore.Functions.GetPlayer(_src)
+local isBoss = Player.PlayerData.gang.isBoss
+print(isBoss)
+```
